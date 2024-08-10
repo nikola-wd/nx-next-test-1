@@ -2,7 +2,10 @@
   "name": "@nx-next/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev3000": "npx nx run nx-next:dev --port=3000",
+    "graph": "npx nx graph"
+  },
   "private": true,
   "dependencies": {
     "next": "14.2.3",
